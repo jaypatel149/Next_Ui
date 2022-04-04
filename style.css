@@ -1,0 +1,173 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 1rem;
+}
+
+.arrow {
+    height: .9rem;
+    margin-left: 1.5rem;
+}
+
+.text {
+    margin-left: 1.2rem;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.varticalLine {
+    padding: 2px;
+    background-color: #999999;
+    width: 100%;
+}
+
+.profile {
+    width: 90px;
+    height: 105px;
+    filter: grayscale(100%)
+}
+
+.profile-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.vartical1 {
+    padding: .5px;
+    width: 87%;
+    background-color: #999999;
+    margin-left: 1.5rem;
+}
+
+.location {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.madrid {
+    color: #999999;
+}
+
+.name-contaner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-tag {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #C4C4C4;
+    margin-right: 1rem;
+}
+
+.details {
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: large;
+    color: #3897F0;
+}
+
+.Category {
+    margin-left: 1.5rem;
+}
+
+.close-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.musical-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.music1 {
+    margin-right: 4rem;
+    width: 6.7rem;
+    padding: 9px;
+    border-radius: 30px;
+    background-color: #F1F1F2;
+    border: #F1F1F2;
+}
+
+.music {
+    margin-right: 6px;
+}
+
+.change {
+    margin-left: 1rem;
+    color: #3897F0;
+}
+
+
+/* .next-container {
+    gap: 1rem;
+} */
+
+.next {
+    color: #C4C4C4;
+}
+
+.social {
+    margin-left: 1.5rem;
+}
+
+.media {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.facebook {
+    height: 50px;
+}
+
+.instagram {
+    height: 50px;
+}
+
+.twitter {
+    height: 50px;
+}
+
+.letter {
+    font-family: sans-serif;
+    font-size: 11px;
+    padding: 5px;
+}
+
+.letter2 {
+    font-family: sans-serif;
+    font-size: 11px;
+    padding: 5px;
+    right: 6px;
+    margin-left: 5px;
+    color: #999999;
+}
+
+.cheking-container {
+    margin-left: 17.8rem;
+    padding-bottom: 5rem;
+}
+
+.checkig {
+    height: 4.5rem;
+}
