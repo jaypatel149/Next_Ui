@@ -4,7 +4,7 @@
 }
 
 body {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     box-sizing: border-box;
 }
 
@@ -27,6 +27,7 @@ body {
     padding: 2px;
     background-color: #999999;
     width: 100%;
+    filter: blur(2px);
 }
 
 .profile {
@@ -39,7 +40,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 16px;
+    margin-right: 1.5rem;
+}
+
+.paragraph {
+    font-size: 17px;
+    color: #7c7979;
 }
 
 .vartical1 {
@@ -103,7 +110,7 @@ body {
     width: 6.7rem;
     padding: 9px;
     border-radius: 30px;
-    background-color: #F1F1F2;
+    background-color: #F8F8F8;
     border: #F1F1F2;
 }
 
@@ -132,7 +139,7 @@ body {
 .media {
     display: flex;
     justify-content: flex-start;
-    gap: 2rem;
+    gap: 1.6rem;
     margin-bottom: 3rem;
 }
 
@@ -150,13 +157,13 @@ body {
 
 .letter {
     font-family: sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     padding: 5px;
 }
 
 .letter2 {
     font-family: sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     padding: 5px;
     right: 6px;
     margin-left: 5px;
